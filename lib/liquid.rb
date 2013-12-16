@@ -19,6 +19,8 @@
 # OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+$:<<'.'
+
 module Liquid
   FilterSeparator             = /\|/
   ArgumentSeparator           = ','
@@ -66,6 +68,7 @@ require 'liquid/standardfilters'
 require 'liquid/condition'
 require 'liquid/module_ex'
 require 'liquid/utils'
+require 'cliquid'
 
 # Load all the tags of the standard library
 #

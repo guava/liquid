@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
   s.files       = Dir.glob("{lib}/**/*") + %w(MIT-LICENSE README.md)
 
   s.extra_rdoc_files  = ["History.md", "README.md"]
-
+  s.extensions = ['ext/liquid/extconf.rb']
   s.require_path = "lib"
 end
