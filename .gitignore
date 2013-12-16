@@ -5,3 +5,6 @@ pkg
 *.rbc
 .rvmrc
 .ruby-version
+*.o
+*.bundle
+Makefile
